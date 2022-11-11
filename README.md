@@ -1,1 +1,5 @@
 # Real-time-prediction-of-losses-in-networks
+
+#### Real-time communication (RTC) platforms have become increasingly popular in the last decade, together with the spread of broadband Internet access. They are nowadays a fundamental means for connecting people and supporting the economy, which relies more and more on forms of remote working. In this context, it is particularly important to act at the network level to ensure adequate Quality of Experience (QoE) to users, where proper traffic management policies are essential to prioritize RTC traffic. This, in turn, requires in-network devices to identify RTC streams and the type of content they carry.
+
+#### We analysis the packet loss phenomenon in two RTC applications and propose two Machine Learning (ML) models to predict the existence of packet loss in the near future, which can potentially assist network management and thus, improve QoE.
