@@ -4,3 +4,7 @@
 ###
 
 ![alt text](https://github.com/stlssg/Real-time-prediction-of-losses-in-networks/blob/main/ml_flow.png?raw=true)
+
+#### Additional information:
+* [Useful link](https://smartdata.polito.it/real-time-prediction-of-packet-loss/)
+<!-- * Emails: tailai.song@polito.it -->
