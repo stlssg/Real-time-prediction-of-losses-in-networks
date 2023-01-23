@@ -5,11 +5,14 @@ import pandas as pd
 from sklearn.metrics import classification_report, confusion_matrix
 from matplotlib import pyplot as plt
 import seaborn as sns
+import time
 
 global features
 
 def output_results(model, data):
+    # start = time.time()
     y_pred = model.predict(data[features])
+    # print((time.time() - start) / len(data), 's')
     print("Prediction Report\n", classification_report(data['lossOrNot'], y_pred))
     cm = confusion_matrix(data['lossOrNot'], y_pred)
     plt.figure(figsize=(5,5))
